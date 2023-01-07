@@ -1,0 +1,22 @@
+//Paste the below code in Google Apps Script
+
+function doGet(e) {
+  const p = e.parameter;
+  const title = p.title
+  const startTime = p.startTime
+  const endTime = p.endTime
+  const desc  = p.desc
+  const loc = p.loc
+  const guest = p.guest
+  const mails = guest
+
+  const event = CalendarApp.getDefaultCalendar().createEvent(
+    title,
+    new Date(startTime),
+    new Date(endTime),
+    {location: loc,
+      description: desc,
+      guests: mails,
+      sendInvites: true
+    });
+}

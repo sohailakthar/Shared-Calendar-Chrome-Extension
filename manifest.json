@@ -1,0 +1,16 @@
+﻿{
+  "name": "MJ Shared Calendar",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A shared calendar using Google Calendar API to view all events for Innovatia Panopoly 2023",
+  "host_permissions": [
+    "YOUR_GOOGLE_SCRIPT_URL"
+  ],
+  "action": {
+    "default_title": "Shared-Calendar",
+    "default_popup": "index.html",
+    "default_icon": {
+      "32": "iconCal.png"
+    }
+  }
+}
