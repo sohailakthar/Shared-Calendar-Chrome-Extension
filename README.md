@@ -14,7 +14,9 @@ This is a shared calendar chrome extension. Anyone with this extension installed
 2. Click on 'New Project' and paste the contents of [script.txt](https://github.com/sohailakthar/Shared-Calendar-Chrome-Extension/blob/main/script.txt) in this project.
 3. Save it and click on 'Deploy' -> 'New Deployment'
 4. From 'Select type' on left, click 'Web App' as shown
-![Deploy web app](https://user-images.githubusercontent.com/67150694/211154844-ce7f2835-95fa-4355-983d-3814d0d8a0c5.png)
+
+      ![Deploy web app](https://user-images.githubusercontent.com/67150694/211154844-ce7f2835-95fa-4355-983d-3814d0d8a0c5.png)
+
 5. In the 'Who has access' list, select 'Anyone' and then click on 'Deploy'
 ![Anyone has access](https://user-images.githubusercontent.com/67150694/211154878-a3cbfdb3-9254-469d-9f5a-624feb6200ab.png)
 6. It takes some time and then displays a 'Authorize Access' button, click it.
@@ -29,7 +31,9 @@ save all the files.
 1. Go to [Extensions](chrome://extensions/)
 2. Turn on 'Developer Tools' from top right side.
 3. Select 'Load unpacked' from the top left
-![Load Unpacked](https://user-images.githubusercontent.com/67150694/211155469-a04d28a7-cee3-4a72-bec2-f7296d3964d4.png)
+
+      ![Load Unpacked](https://user-images.githubusercontent.com/67150694/211155469-a04d28a7-cee3-4a72-bec2-f7296d3964d4.png)
+
 4. Select the folder where you've placed all your files and 'Open folder'
 
 #### Extension should now be loaded and working. If you've got any suggestions please let me know.
